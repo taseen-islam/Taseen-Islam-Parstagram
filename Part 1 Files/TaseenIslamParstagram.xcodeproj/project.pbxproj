@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428F508E3119B4FEE66BE8F8 /* Pods_TaseenIslamParstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAF76A79357103668EFA12B /* Pods_TaseenIslamParstagram.framework */; };
+		7CC6DB88C74C6C2C5E8A251E /* Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966E4174C745B9CA2A39B053 /* Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework */; };
+		AA01D90B28F616D30076FD61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D90A28F616D30076FD61 /* AppDelegate.swift */; };
+		AA01D90D28F616D30076FD61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D90C28F616D30076FD61 /* SceneDelegate.swift */; };
+		AA01D91228F616D30076FD61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01D91028F616D30076FD61 /* Main.storyboard */; };
+		AA01D91428F616D30076FD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA01D91328F616D30076FD61 /* Assets.xcassets */; };
+		AA01D91728F616D30076FD61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01D91528F616D30076FD61 /* LaunchScreen.storyboard */; };
+		AA01D92228F616D40076FD61 /* TaseenIslamParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D92128F616D40076FD61 /* TaseenIslamParstagramTests.swift */; };
+		AA01D92C28F616D40076FD61 /* TaseenIslamParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D92B28F616D40076FD61 /* TaseenIslamParstagramUITests.swift */; };
+		AA01D92E28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D92D28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift */; };
+		AA01D93B28F61DC40076FD61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D93A28F61DC40076FD61 /* LoginViewController.swift */; };
+		AA01D93D28F61DCD0076FD61 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */; };
+		AAD5408C28FA60F90014FCC4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5408B28FA60F90014FCC4 /* PostCell.swift */; };
+		AAFC9A8C28FA0141006BB9F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */; };
+		E495CE1777AC14BC0ADBBCBA /* Pods_TaseenIslamParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EB52AA11FC005F0E5795A7 /* Pods_TaseenIslamParstagramTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA01D91E28F616D40076FD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA01D8FF28F616D30076FD61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01D90628F616D30076FD61;
+			remoteInfo = TaseenIslamParstagram;
+		};
+		AA01D92828F616D40076FD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA01D8FF28F616D30076FD61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01D90628F616D30076FD61;
+			remoteInfo = TaseenIslamParstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0398762CEE3CD2EAE44994DA /* Pods-TaseenIslamParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagramTests/Pods-TaseenIslamParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F900191F5A5D1B718DF6C25 /* Pods-TaseenIslamParstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagram.release.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagram/Pods-TaseenIslamParstagram.release.xcconfig"; sourceTree = "<group>"; };
+		43EB52AA11FC005F0E5795A7 /* Pods_TaseenIslamParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaseenIslamParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473520827F02FA880002E228 /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FEE305E29C20872CBE0523C /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		843B8DC7E11098C9DBBC29D3 /* Pods-TaseenIslamParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagramTests/Pods-TaseenIslamParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		966E4174C745B9CA2A39B053 /* Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A841217EBA42E334A07933B /* Pods-TaseenIslamParstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaseenIslamParstagram.debug.xcconfig"; path = "Target Support Files/Pods-TaseenIslamParstagram/Pods-TaseenIslamParstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		9AAF76A79357103668EFA12B /* Pods_TaseenIslamParstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaseenIslamParstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01D90728F616D30076FD61 /* TaseenIslamParstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaseenIslamParstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01D90A28F616D30076FD61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA01D90C28F616D30076FD61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA01D91128F616D30076FD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA01D91328F616D30076FD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA01D91628F616D30076FD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA01D91828F616D30076FD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA01D91D28F616D40076FD61 /* TaseenIslamParstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaseenIslamParstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01D92128F616D40076FD61 /* TaseenIslamParstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaseenIslamParstagramTests.swift; sourceTree = "<group>"; };
+		AA01D92728F616D40076FD61 /* TaseenIslamParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaseenIslamParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01D92B28F616D40076FD61 /* TaseenIslamParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaseenIslamParstagramUITests.swift; sourceTree = "<group>"; };
+		AA01D92D28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaseenIslamParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA01D93A28F61DC40076FD61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		AAD5408B28FA60F90014FCC4 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA01D90428F616D30076FD61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428F508E3119B4FEE66BE8F8 /* Pods_TaseenIslamParstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D91A28F616D40076FD61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E495CE1777AC14BC0ADBBCBA /* Pods_TaseenIslamParstagramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D92428F616D40076FD61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC6DB88C74C6C2C5E8A251E /* Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8351C0FCF6867793D76AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF76A79357103668EFA12B /* Pods_TaseenIslamParstagram.framework */,
+				966E4174C745B9CA2A39B053 /* Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests.framework */,
+				43EB52AA11FC005F0E5795A7 /* Pods_TaseenIslamParstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFCE06EE601B20377FE4F9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A841217EBA42E334A07933B /* Pods-TaseenIslamParstagram.debug.xcconfig */,
+				3F900191F5A5D1B718DF6C25 /* Pods-TaseenIslamParstagram.release.xcconfig */,
+				473520827F02FA880002E228 /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.debug.xcconfig */,
+				4FEE305E29C20872CBE0523C /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.release.xcconfig */,
+				0398762CEE3CD2EAE44994DA /* Pods-TaseenIslamParstagramTests.debug.xcconfig */,
+				843B8DC7E11098C9DBBC29D3 /* Pods-TaseenIslamParstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA01D8FE28F616D30076FD61 = {
+			isa = PBXGroup;
+			children = (
+				AA01D90928F616D30076FD61 /* TaseenIslamParstagram */,
+				AA01D92028F616D40076FD61 /* TaseenIslamParstagramTests */,
+				AA01D92A28F616D40076FD61 /* TaseenIslamParstagramUITests */,
+				AA01D90828F616D30076FD61 /* Products */,
+				9DFCE06EE601B20377FE4F9E /* Pods */,
+				0B8351C0FCF6867793D76AE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA01D90828F616D30076FD61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA01D90728F616D30076FD61 /* TaseenIslamParstagram.app */,
+				AA01D91D28F616D40076FD61 /* TaseenIslamParstagramTests.xctest */,
+				AA01D92728F616D40076FD61 /* TaseenIslamParstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA01D90928F616D30076FD61 /* TaseenIslamParstagram */ = {
+			isa = PBXGroup;
+			children = (
+				AA01D90A28F616D30076FD61 /* AppDelegate.swift */,
+				AA01D90C28F616D30076FD61 /* SceneDelegate.swift */,
+				AA01D91028F616D30076FD61 /* Main.storyboard */,
+				AA01D91328F616D30076FD61 /* Assets.xcassets */,
+				AA01D91528F616D30076FD61 /* LaunchScreen.storyboard */,
+				AA01D91828F616D30076FD61 /* Info.plist */,
+				AA01D93A28F61DC40076FD61 /* LoginViewController.swift */,
+				AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */,
+				AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */,
+				AAD5408B28FA60F90014FCC4 /* PostCell.swift */,
+			);
+			path = TaseenIslamParstagram;
+			sourceTree = "<group>";
+		};
+		AA01D92028F616D40076FD61 /* TaseenIslamParstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA01D92128F616D40076FD61 /* TaseenIslamParstagramTests.swift */,
+			);
+			path = TaseenIslamParstagramTests;
+			sourceTree = "<group>";
+		};
+		AA01D92A28F616D40076FD61 /* TaseenIslamParstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA01D92B28F616D40076FD61 /* TaseenIslamParstagramUITests.swift */,
+				AA01D92D28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift */,
+			);
+			path = TaseenIslamParstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA01D90628F616D30076FD61 /* TaseenIslamParstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01D93128F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagram" */;
+			buildPhases = (
+				57B36D2B60F5FC26E05B6430 /* [CP] Check Pods Manifest.lock */,
+				AA01D90328F616D30076FD61 /* Sources */,
+				AA01D90428F616D30076FD61 /* Frameworks */,
+				AA01D90528F616D30076FD61 /* Resources */,
+				2B82D32F44B7E9BCCA1D92A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaseenIslamParstagram;
+			productName = TaseenIslamParstagram;
+			productReference = AA01D90728F616D30076FD61 /* TaseenIslamParstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA01D91C28F616D40076FD61 /* TaseenIslamParstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01D93428F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagramTests" */;
+			buildPhases = (
+				53C36F17660C0A5B3035C243 /* [CP] Check Pods Manifest.lock */,
+				AA01D91928F616D40076FD61 /* Sources */,
+				AA01D91A28F616D40076FD61 /* Frameworks */,
+				AA01D91B28F616D40076FD61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA01D91F28F616D40076FD61 /* PBXTargetDependency */,
+			);
+			name = TaseenIslamParstagramTests;
+			productName = TaseenIslamParstagramTests;
+			productReference = AA01D91D28F616D40076FD61 /* TaseenIslamParstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA01D92628F616D40076FD61 /* TaseenIslamParstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA01D93728F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagramUITests" */;
+			buildPhases = (
+				C2AA34F4B52223B0891AA67A /* [CP] Check Pods Manifest.lock */,
+				AA01D92328F616D40076FD61 /* Sources */,
+				AA01D92428F616D40076FD61 /* Frameworks */,
+				AA01D92528F616D40076FD61 /* Resources */,
+				413612ED5D701992147D7144 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA01D92928F616D40076FD61 /* PBXTargetDependency */,
+			);
+			name = TaseenIslamParstagramUITests;
+			productName = TaseenIslamParstagramUITests;
+			productReference = AA01D92728F616D40076FD61 /* TaseenIslamParstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA01D8FF28F616D30076FD61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AA01D90628F616D30076FD61 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AA01D91C28F616D40076FD61 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AA01D90628F616D30076FD61;
+					};
+					AA01D92628F616D40076FD61 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AA01D90628F616D30076FD61;
+					};
+				};
+			};
+			buildConfigurationList = AA01D90228F616D30076FD61 /* Build configuration list for PBXProject "TaseenIslamParstagram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA01D8FE28F616D30076FD61;
+			productRefGroup = AA01D90828F616D30076FD61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA01D90628F616D30076FD61 /* TaseenIslamParstagram */,
+				AA01D91C28F616D40076FD61 /* TaseenIslamParstagramTests */,
+				AA01D92628F616D40076FD61 /* TaseenIslamParstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA01D90528F616D30076FD61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01D91728F616D30076FD61 /* LaunchScreen.storyboard in Resources */,
+				AA01D91428F616D30076FD61 /* Assets.xcassets in Resources */,
+				AA01D91228F616D30076FD61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D91B28F616D40076FD61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D92528F616D40076FD61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B82D32F44B7E9BCCA1D92A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram/Pods-TaseenIslamParstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram/Pods-TaseenIslamParstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram/Pods-TaseenIslamParstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		413612ED5D701992147D7144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53C36F17660C0A5B3035C243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaseenIslamParstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B36D2B60F5FC26E05B6430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaseenIslamParstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AA34F4B52223B0891AA67A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA01D90328F616D30076FD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01D93B28F61DC40076FD61 /* LoginViewController.swift in Sources */,
+				AAFC9A8C28FA0141006BB9F6 /* CameraViewController.swift in Sources */,
+				AA01D90B28F616D30076FD61 /* AppDelegate.swift in Sources */,
+				AA01D93D28F61DCD0076FD61 /* FeedViewController.swift in Sources */,
+				AA01D90D28F616D30076FD61 /* SceneDelegate.swift in Sources */,
+				AAD5408C28FA60F90014FCC4 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D91928F616D40076FD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01D92228F616D40076FD61 /* TaseenIslamParstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA01D92328F616D40076FD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01D92C28F616D40076FD61 /* TaseenIslamParstagramUITests.swift in Sources */,
+				AA01D92E28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA01D91F28F616D40076FD61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA01D90628F616D30076FD61 /* TaseenIslamParstagram */;
+			targetProxy = AA01D91E28F616D40076FD61 /* PBXContainerItemProxy */;
+		};
+		AA01D92928F616D40076FD61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA01D90628F616D30076FD61 /* TaseenIslamParstagram */;
+			targetProxy = AA01D92828F616D40076FD61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA01D91028F616D30076FD61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA01D91128F616D30076FD61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA01D91528F616D30076FD61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA01D91628F616D30076FD61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA01D92F28F616D40076FD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA01D93028F616D40076FD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA01D93228F616D40076FD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A841217EBA42E334A07933B /* Pods-TaseenIslamParstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaseenIslamParstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA01D93328F616D40076FD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F900191F5A5D1B718DF6C25 /* Pods-TaseenIslamParstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaseenIslamParstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA01D93528F616D40076FD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0398762CEE3CD2EAE44994DA /* Pods-TaseenIslamParstagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaseenIslamParstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaseenIslamParstagram";
+			};
+			name = Debug;
+		};
+		AA01D93628F616D40076FD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843B8DC7E11098C9DBBC29D3 /* Pods-TaseenIslamParstagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaseenIslamParstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaseenIslamParstagram";
+			};
+			name = Release;
+		};
+		AA01D93828F616D40076FD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473520827F02FA880002E228 /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaseenIslamParstagram;
+			};
+			name = Debug;
+		};
+		AA01D93928F616D40076FD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEE305E29C20872CBE0523C /* Pods-TaseenIslamParstagram-TaseenIslamParstagramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.org.TaseenIslamParstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaseenIslamParstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA01D90228F616D30076FD61 /* Build configuration list for PBXProject "TaseenIslamParstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01D92F28F616D40076FD61 /* Debug */,
+				AA01D93028F616D40076FD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA01D93128F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01D93228F616D40076FD61 /* Debug */,
+				AA01D93328F616D40076FD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA01D93428F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01D93528F616D40076FD61 /* Debug */,
+				AA01D93628F616D40076FD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA01D93728F616D40076FD61 /* Build configuration list for PBXNativeTarget "TaseenIslamParstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01D93828F616D40076FD61 /* Debug */,
+				AA01D93928F616D40076FD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA01D8FF28F616D30076FD61 /* Project object */;
+}

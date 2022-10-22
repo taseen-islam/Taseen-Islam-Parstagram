@@ -19,6 +19,7 @@
 		AA01D92E28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D92D28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift */; };
 		AA01D93B28F61DC40076FD61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D93A28F61DC40076FD61 /* LoginViewController.swift */; };
 		AA01D93D28F61DCD0076FD61 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */; };
+		AA3E2E362903825900B981DE /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E2E352903825900B981DE /* CommentCell.swift */; };
 		AAD5408C28FA60F90014FCC4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5408B28FA60F90014FCC4 /* PostCell.swift */; };
 		AAFC9A8C28FA0141006BB9F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */; };
 		E495CE1777AC14BC0ADBBCBA /* Pods_TaseenIslamParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EB52AA11FC005F0E5795A7 /* Pods_TaseenIslamParstagramTests.framework */; };
@@ -65,6 +66,7 @@
 		AA01D92D28F616D40076FD61 /* TaseenIslamParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaseenIslamParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA01D93A28F61DC40076FD61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		AA3E2E352903825900B981DE /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		AAD5408B28FA60F90014FCC4 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 				AA01D93C28F61DCD0076FD61 /* FeedViewController.swift */,
 				AAFC9A8B28FA0141006BB9F6 /* CameraViewController.swift */,
 				AAD5408B28FA60F90014FCC4 /* PostCell.swift */,
+				AA3E2E352903825900B981DE /* CommentCell.swift */,
 			);
 			path = TaseenIslamParstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				AA01D93D28F61DCD0076FD61 /* FeedViewController.swift in Sources */,
 				AA01D90D28F616D30076FD61 /* SceneDelegate.swift in Sources */,
 				AAD5408C28FA60F90014FCC4 /* PostCell.swift in Sources */,
+				AA3E2E362903825900B981DE /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

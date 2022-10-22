@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TaseenIslamParstagram_TaseenIslamParstagramUITests
+@end

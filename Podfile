@@ -8,6 +8,7 @@ target 'TaseenIslamParstagram' do
   use_frameworks!
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
   # Pods for TaseenIslamParstagram
 
   target 'TaseenIslamParstagramTests' do
